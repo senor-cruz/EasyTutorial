@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75) ,rgba(0, 0, 0, 0.75)),url(download.jpeg);
+} 
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo{
+    width: 120px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: gray;
+}
+
+.content hl{
+    font-size: 70px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 9px;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.5s;
+}
+.button:hover{
+    opacity: 0.7;
+}
+.button:active{
+    opacity: 0.4;
+}
+
+.header{
+    height: 55px; 
+}
